@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83816980-24E0-0240-1E21-3AFE4BED5145" name="jogador_partida">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:47:30 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jogador_partida" id="66410C49-CD7C-7B37-B691-0DADB49BE097">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:54:59 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="369D89B4-138B-8B03-85A4-6A8619EFACF9">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:48:10 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fk_jogador" id="06559BE8-7382-8C68-F3EE-A7330A4E59E1">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:48:00 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82D033FE-2996-E918-4BC6-5C242F7D730B" referredColumn="DAD173D1-92F8-3A34-535E-976779350BB2"/>
+</associations>
+</Column>
+<Column name="fk_partida" id="F79D4F5D-CF5E-7E8C-0C42-7B4B8FEC92B9">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:48:04 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D274A31A-27B5-7A1D-6351-058445D70DCB" referredColumn="903C7741-58BB-20C6-B1BE-F35C64BCBDEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C335C6C-3597-6AB3-3CF8-428B6D919BA1" name="jogador_partida_PK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:55:04 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66410C49-CD7C-7B37-B691-0DADB49BE097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CE3890C-5007-2A2B-B49A-BE2353FB2972" name="jogador_partida_jogador_FK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:48:00 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06559BE8-7382-8C68-F3EE-A7330A4E59E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAE66696-EFE7-F36F-1C47-F2E70AEE1A5C" name="jogador_partida_Partida_FK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:48:04 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F79D4F5D-CF5E-7E8C-0C42-7B4B8FEC92B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

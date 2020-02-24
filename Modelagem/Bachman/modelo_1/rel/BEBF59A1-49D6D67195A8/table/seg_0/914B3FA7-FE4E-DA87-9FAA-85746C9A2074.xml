@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="914B3FA7-FE4E-DA87-9FAA-85746C9A2074" name="preferencia">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:20:57 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_preferencia" id="2C26F4C6-B8A3-ACBF-83B1-7206F4B42E00">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:22:21 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pos_1" id="878A1B7F-F511-D6CC-E31F-6CBB9F6446E0">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:22:04 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pos_2" id="637AA413-26C0-42A1-AAB0-B03F50694C5D">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:22:30 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pos_3" id="33BDDA09-2A49-6F03-C27E-E9BC184038B9">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:22:49 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_jogador" id="EBA08BAF-7652-94E1-737E-1D7268C460F8">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:25:21 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09128AF8-8A5C-3963-8130-2348860042C3" referredColumn="DAD173D1-92F8-3A34-535E-976779350BB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC59AC71-15C8-2BD7-0C02-B382C62FF247" name="jogador_preferencia_PK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:22:21 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C26F4C6-B8A3-ACBF-83B1-7206F4B42E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E85939C8-C09F-CB7E-9CEA-781F883BB19E" name="jogador_preferencia_jogador_FK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:25:21 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBA08BAF-7652-94E1-737E-1D7268C460F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

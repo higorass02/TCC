@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="984B33C0-2E1B-D289-DD45-B3890C86341C" name="Partida">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:32:51 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partida" id="903C7741-58BB-20C6-B1BE-F35C64BCBDEC">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:33:05 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_local" id="075A8364-807A-AE27-DFB3-80A1DA922D1B">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:33:38 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_partida" id="EA50883D-AB98-DB7B-FDA9-183809D354E9">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:34:03 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="062BBC7A-8254-BF48-DD38-A5AD26C2AF57">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:34:41 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="EDDA4B9C-D423-A703-5937-8A932CEE5B8E">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:34:56 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_jogadores_linha" id="13FFC4B8-657E-A8D7-7975-F411476D7A5E">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:08:35 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="juiz" id="EF13D71D-27F4-3892-1F8A-14919D4F5706">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:46:23 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="55309BB9-C976-2F14-2729-B9DFFC012E9A">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:35:25 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao" id="5B4BC4E9-8DA7-8FC0-BEF4-48EE6C20D756">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:35:50 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ultima_atualizacao" id="127E558E-3A8D-E884-E30D-10813E724269">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:36:11 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_distribuicao" id="9E365B35-9101-DBD7-3B95-AAE9FD0B51D1">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:59:33 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6424DB91-9D2B-965C-F666-3538ED530874" name="Jogo_PK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:33:13 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903C7741-58BB-20C6-B1BE-F35C64BCBDEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

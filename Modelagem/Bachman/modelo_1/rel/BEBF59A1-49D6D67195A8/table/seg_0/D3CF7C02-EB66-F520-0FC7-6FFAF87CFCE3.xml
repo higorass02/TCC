@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3CF7C02-EB66-F520-0FC7-6FFAF87CFCE3" name="formacao">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:43:09 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formacao" id="F4D9E3C1-0A0F-BA2B-EB69-A3ACE2F12789">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:43:30 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_formacao" id="9D547D32-BDE0-C708-6120-B2B963E1139C">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:44:01 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goleiro" id="9D1FC202-6AC4-1132-BC57-011F3C7A9CB1">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:44:11 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="defencores" id="B30D23CF-EF3A-39C3-DEBB-A6E870F3CC0B">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:45:14 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meio_campo" id="D48AFECC-A176-D8FF-AEB8-28E90FAECB35">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:45:46 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atacantes" id="682CC610-8DCB-BB56-FC14-B1389C2839FF">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:45:56 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_jogadores_formacao" id="6561AC5B-1AE5-58DF-9E9C-2F0507F77B4D">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:20:53 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F41792ED-1C46-7527-BC95-DC5E9916CCD0" name="formacao_PK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:43:30 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D9E3C1-0A0F-BA2B-EB69-A3ACE2F12789"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

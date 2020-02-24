@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F086C13-DB38-A5C8-7DDB-088419F5D380" name="Time">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:53:15 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_time" id="4CC3D558-1C56-ADC6-C469-FC264325D30F">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 06:53:40 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fk_formacao" id="6C8C8A88-B954-2F69-F301-3AFC3F41C7EC">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:11:39 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A711CA2-D167-9BD0-E785-22E0C3FFCCBC" referredColumn="F4D9E3C1-0A0F-BA2B-EB69-A3ACE2F12789"/>
+</associations>
+</Column>
+<Column name="id_jogador_partida" id="F1BCABDE-AC22-25B5-0ABE-51B4443B5AFC">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:19:10 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82E596C-9777-4D43-3C8C-D3E91F48C428" referredColumn="66410C49-CD7C-7B37-B691-0DADB49BE097"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C6DFB70-FEB3-D31B-8B2D-EB9BA154D5AE" name="Time_formacao_FK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:11:39 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C8C8A88-B954-2F69-F301-3AFC3F41C7EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C1A84D0-02CF-DB16-F96E-F8BD670C422F" name="Time_jogador_partida_FK">
+<createdBy>Higor</createdBy>
+<createdTime>2020-02-24 07:19:10 UTC</createdTime>
+<ownerDesignName>modelo_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1BCABDE-AC22-25B5-0ABE-51B4443B5AFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
