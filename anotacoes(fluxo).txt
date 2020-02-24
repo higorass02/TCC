@@ -1,0 +1,22 @@
+Fuxo do sistema
+
+1) Criar Partida.
+	1.1) Detalhes na hora de criar a partida
+		Obrigatoriedade:
+			- Data da partida.
+			- Local da partida.
+2) Criar Listagem de Jogadores (cadastrados na base).
+3) escolher tipo de distribuicao.
+	3.1) Distribuicao Aleatoria ( Equilibrar por preferecia de posicao ? ).
+		3.1.1) Escolher esquema tatico:
+			caso sim:
+				verificar quantidade de jogadores Linha (5,6,7,8,9,10).
+				verificar formacoes conforme o numero de jogadores.
+				distribuir Jogadores.
+			caso nao:
+				apenas exibir as listas de time com os jogadores.
+	3.2) Distribuicao Manual
+		3.2.1) Escolher esquema tatico (obrigatorio!)
+				verificar quantidade de jogadores Linha (5,6,7,8,9,10).
+				verificar formacoes conforme o numero de jogadores.
+				exibir tela para montagem de jogador/posicao.
